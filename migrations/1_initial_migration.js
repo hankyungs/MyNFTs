@@ -1,7 +1,7 @@
 const Migrations = artifacts.require("Migrations");
-const MyNFTs = artifacts.require("MyNFTs.sol");
+const HankyungScam = artifacts.require("HankyungScam.sol");
 
 module.exports = function (deployer) {
   deployer.deploy(Migrations);
-  deployer.deploy(MyNFTs);
+  deployer.deploy(HankyungScam);
 };
